@@ -1,0 +1,7 @@
+dataset/
+*.ipynb
+__pycache__/
+*.pyc
+.git/
+.github/
+fastapi.log
