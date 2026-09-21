@@ -1,0 +1,19 @@
+services:
+
+  attendance-api-1:
+    build: .
+    container_name: attendance-api-1
+    ports:
+      - "8001:8000"
+
+  attendance-api-2:
+    build: .
+    container_name: attendance-api-2
+    ports:
+      - "8002:8000"
+
+  attendance-api-3:
+    build: .
+    container_name: attendance-api-3
+    ports:
+      - "8003:8000"
